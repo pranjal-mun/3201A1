@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>COMP3201 Assignment 1</title>
+</head>
+<body>
+<div class="maindiv">
+    <h1>COMP3201 Assignment 1: Game of Life</h1>
+    <h2>Instructions</h2>
+    <p>To determine which version of the assignment you should complete, use the modulus operator with your student ID:</p>
+    <pre>version = student_id % 4</pre>
+    <ul>
+        <li>If <strong>version == 0</strong>, complete <strong>Version A</strong>.</li>
+        <li>If <strong>version == 1</strong>, complete <strong>Version B</strong>.</li>
+        <li>If <strong>version == 2</strong>, complete <strong>Version C</strong>.</li>
+        <li>If <strong>version == 3</strong>, complete <strong>Version D</strong>.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Version A</h2>
+    <h3>Tasks</h3>
+    <p>Write a Java program called <strong>Sim134.java</strong> that simulates the <a href="http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm" target="_blank">Game of Life</a>.</p>
+    <p><strong>Requirements:</strong></p>
+    <ul>
+        <li>Accept two parameters from the console:</li>
+        <ul>
+            <li>Number of iterations (integer ≥ 0).</li>
+            <li>Pattern type: <strong>R</strong> (Random), <strong>J</strong> (Jam), or <strong>D</strong> (Dart).</li>
+        </ul>
+        <li>Implement a graphical display for an 80x80 cell grid.</li>
+        <li>Provide sufficient delay between iterations.</li>
+        <li>Ensure the grid wraps around.</li>
+    </ul>
+    <h3>Patterns</h3>
+    <p>Jam: <img src="assets/oscillators/Jam.png" style="width:150px;"> → <img src="assets/oscillators/Jam.gif" style="width:150px;"></p>
+    <p>Dart: <img src="assets/gliders/Dart.png" style="width:150px;"> → <img src="assets/gliders/Dart.gif" style="width:150px;"></p>
+
+    <hr>
+
+    <h2>Version B</h2>
+    <h3>Tasks</h3>
+    <p>Write a Java program called <strong>Sim453.java</strong> that simulates the <a href="http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm" target="_blank">Game of Life</a>.</p>
+    <p><strong>Requirements:</strong></p>
+    <ul>
+        <li>Accept two parameters from the console:</li>
+        <ul>
+            <li>Number of iterations (integer ≥ 0).</li>
+            <li>Pattern type: <strong>R</strong> (Random), <strong>B</strong> (By Flop), or <strong>C</strong> (Crab).</li>
+        </ul>
+        <li>Implement a graphical display for a 140x140 cell grid.</li>
+        <li>Provide sufficient delay between iterations.</li>
+        <li>Ensure the grid wraps around.</li>
+    </ul>
+    <h3>Patterns</h3>
+    <p>By Flop: <img src="assets/oscillators/Byflops.png" style="width:150px;"> → <img src="assets/oscillators/Byflops.gif" style="width:150px;"></p>
+    <p>Crab: <img src="assets/gliders/Crab.png" style="width:150px;"> → <img src="assets/gliders/Crab.gif" style="width:150px;"></p>
+
+    <hr>
+
+    <h2>Version C</h2>
+    <h3>Tasks</h3>
+    <p>Write a Java program called <strong>Sim375.java</strong> that simulates the <a href="http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm" target="_blank">Game of Life</a>.</p>
+    <p><strong>Requirements:</strong></p>
+    <ul>
+        <li>Accept two parameters from the console:</li>
+        <ul>
+            <li>Number of iterations (integer ≥ 0).</li>
+            <li>Pattern type: <strong>R</strong> (Random), <strong>T</strong> (Tumbler), or <strong>L</strong> (Loafer).</li>
+        </ul>
+        <li>Implement a graphical display for a 120x120 cell grid.</li>
+        <li>Provide sufficient delay between iterations.</li>
+        <li>Ensure the grid wraps around.</li>
+    </ul>
+    <h3>Patterns</h3>
+    <p>Tumbler: <img src="assets/oscillators/Tumbler.png" style="width:150px;"> → <img src="assets/oscillators/Tumbler.gif" style="width:150px;"></p>
+    <p>Loafer: <img src="assets/gliders/Loafer.png" style="width:150px;"> → <img src="assets/gliders/Loafer.gif" style="width:150px;"></p>
+
+    <hr>
+
+    <h2>Version D</h2>
+    <h3>Tasks</h3>
+    <p>Write a Java program called <strong>Sim247.java</strong> that simulates the <a href="http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm" target="_blank">Game of Life</a>.</p>
+    <p><strong>Requirements:</strong></p>
+    <ul>
+        <li>Accept two parameters from the console:</li>
+        <ul>
+            <li>Number of iterations (integer ≥ 0).</li>
+            <li>Pattern type: <strong>R</strong> (Random), <strong>M</strong> (Mazing), or <strong>T</strong> (Turtle).</li>
+        </ul>
+        <li>Implement a graphical display for a 100x100 cell grid.</li>
+        <li>Provide sufficient delay between iterations.</li>
+        <li>Ensure the grid wraps around.</li>
+    </ul>
+    <h3>Patterns</h3>
+    <p>Mazing: <img src="assets/oscillators/Mazing.png" style="width:150px;"> → <img src="assets/oscillators/Mazing.gif" style="width:150px;"></p>
+    <p>Turtle: <img src="assets/gliders/Turtle.png" style="width:150px;"> → <img src="assets/gliders/Turtle.gif" style="width:150px;"></p>
+
+    <hr>
+
+    <h2>Video Demos</h2>
+    <p>Watch the relevant video demo to understand the requirements for your assigned version:</p>
+    <ul>
+        <li><strong>Version A:</strong> <video controls style="width:480px;"><source src="assets/videos/Sim134.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+        <li><strong>Version B:</strong> <video controls style="width:480px;"><source src="assets/videos/Sim453.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+        <li><strong>Version C:</strong> <video controls style="width:480px;"><source src="assets/videos/Sim375.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+        <li><strong>Version D:</strong> <video controls style="width:480px;"><source src="assets/videos/Sim247.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+    </ul>
+</div>
+</body>
+</html>
